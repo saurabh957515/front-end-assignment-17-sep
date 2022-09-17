@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Problem </title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  .CN1 {
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-top: 10px;
+    align: center;
+    float: left;
+    background-color: white;
+  }
+
+  .CN2 {
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+  .CM {
+    border: 1px solid white;
+    height: 700px;
+    width: 600px;
+    margin: 20px;
+    float: left;
+    text-align: ;
+  }
+  .button1{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:lightblue;
+    height: 30px;
+    width: 100px;
+    margin-left: 50px;
+  }
+  .button2{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 70px;
+    
+  }
+  .checked{
+    color: orange;
+  }
+  .halfstar{
+    color: gray;
+  }
+
+  .Text1 {
+    font-size: 20px;
+    font-family: times;
+    text-align: left;
+  }
+
+  .color1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: times;
+    text-decoration: none;
+  }
+  #Num{
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+  }
+
+  .buy{background-color: rgb(15, 247, 224);
+    color: white;
+    width: 100px;
+    height: 45px;
+    font-size: medium;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+  }
+
+  .add{
+    background-color: rgb(235, 186, 186);
+    color: black;
+    border: 3px solid;
+    width: 180px;
+    height: 40px;
+    font-size: medium;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+  }
+  .Quantity{
+    background:white;
+        border: 1px solid black;
+        outline: 0;
+        padding: 2px 2px 2px 15px;
+        width:50px ;
+        border-radius: 12px;
+  }
+</style>
+
+<body>
+
+    <h1 style="text-align: center;"  > Productd Page </h1>
+  <div class="CN1">
+    <div class="CN2">
+     
+        <img src="ImageT.png" height="550" width="400px" />
+      
+    </div>
+  </div>
+  <div class="CM">
+  
+   <h3>Green Cotton Tshirt </h3>
+    <p>Shirts</p>
+    <br>
+    <div class="star1">
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star half-checked"></span>
+    </div>
+    <p> Rs. 400 <strike>Rs.800</strike> <mark>50% Off</mark></p>
+    <pre class="Text1">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+ Ad qui amet harum repellat autem rem
+ cumque tempora aut asperiores odio fugit labore dolor, 
+ facilis at eius ex explicabo, impedit et praesentium
+ aliquam unde in nisi necessitatibus saepe. Reprehenderit
+ quaerat corrupti, consectetur aperiam alias, nihil ipsam
+ quibusdam nulla quos natus illum sint voluptatibus cum 
+ voluptate repellat, rerum eius cupiditate pariatur 
+ praesentium,laudantium temporibus perferendis vitae.</pre>
+    <br>
+    <div class="color1">
+    <p>
+      <pre> <b>Color:</b>        Green </pre>
+    </p>
+      <pre><b>Availability:</b>    3 in stock</pre>
+
+
+      <div class="size-select">
+        <p><b>Select Size:</b>
+
+            <label for="small">
+                <input type="radio" name="size" id="small">
+                <samp>S</samp>
+            </label>
+
+            <label for="small">
+                <input type="radio" name="size" id="Medium">
+                <samp>M</samp>
+            </label>
+
+
+            <label for="small">
+                <input type="radio" name="size" id="large">
+                <samp>L</samp>
+            </label>
+
+
+        </p>
+      </div>
+    
+     
+     <div>
+     
+      <p><b>Quantity :</b>
+     <select name="quantity-selector" class="Quantity" id="">
+        <option value="1">1</option>
+        <option value="1">2</option>
+        <option value="1">3</option>
+        <option value="1">4</option>
+        <option value="1">5</option>
+     </select></p>
+     <button class="buy" >Buy Now</button> <button class="add">Add to Cart</button>
+      
+
+
+    </div>  
+  </div>
+</body>
+
+</html>
